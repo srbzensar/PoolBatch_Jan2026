@@ -16,3 +16,6 @@ async function fetchPostAndAuthor(postId) {
     console.error('Error:', error.message);
   }
 }
+
+fetchPostAndAuthor(12);
+// fetchPostAndAuthor(101);
